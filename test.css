@@ -1,0 +1,42 @@
+#box{
+  outline: 10px solid red;
+  height: 50%;
+  width: 50%;
+  margin: 150 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.rock{
+  height: 25%;
+  width: 25%;
+  margin: 10px;
+}
+
+.paper{
+  height: 25%;
+  width: 25%;
+  margin: 10px;
+}
+
+.scissor{
+  height: 25%;
+  width: 25%;
+  margin: 10px;
+}
+
+.inside{
+  font-size: 20;
+  /*text-align: center;*/
+  padding: 40px;
+}
+
+.score{
+  display: none;
+}
+
+button{
+  outline: 1px solid blue;
+}
